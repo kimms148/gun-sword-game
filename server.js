@@ -1,4 +1,4 @@
-const express = require("express");
+const TICK = 1000 / 20;const express = require("express");
 const http = require("http");
 const { Server } = require("socket.io");
 
